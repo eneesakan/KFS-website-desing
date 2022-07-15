@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>KFC Website Landing Page</title>
+    <link rel="stylesheet" href="styl.css">
+</head>
+<body>
+    <section>
+        <div class="circle"></div>
+        <header>
+            <a href="#"><img src="kfc-logo.png" class="logo"></a>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Menu</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </header>
+        <div class="content">
+            <div class="texBox">
+                <h2>Finger Lickin Good<br>It's <span class="kfs">KFS</span></h2>
+                <p>In accordance with KFC's global brand standards, we determine all our food and packaging suppliers after undergoing very serious inspection processes. In addition to the audits of our suppliers, we also regularly check all the products of our suppliers and offer our consumers reliable, approved products.</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div class="imgBox">
+                <img src="menu-1.png" class="menuler">
+            </div>
+        </div>
+        <ul class="thumb">
+            <li><img src="thumb-1.png" onclick="imgSlider('menu-1.png');changeCircleColor('#162c51')"></li>
+            <li><img src="thumb-2.png" onclick="imgSlider('menu-2.png');changeCircleColor('#a3080c')"></li>
+            <li><img src="thumb-3.png" onclick="imgSlider('menu-3.png');changeCircleColor('#db9337')"></li>
+        </ul>
+        <ul class="social">
+            <li><a href="https://www.instagram.com/eneesakan/" target="_blank"><img src="instagram.png"></a></li>
+            <li><a href="https://www.linkedin.com/in/eneesakan/" target="_blank"><img src="linkedin.png"></a></li>
+            <li><a href="https://github.com/eneesakan" target="_blank"><img src="github.png"></a></li>
+        </ul>
+    </section>
+    <script type="text/javascript">
+        function imgSlider(anything){
+            document.querySelector('.menuler').src = anything;
+        }
+
+        function changeCircleColor(color){
+            const circle = document.querySelector('.circle');
+            circle.style.background = color;
+        }
+    </script>
+</body>
+</html>
