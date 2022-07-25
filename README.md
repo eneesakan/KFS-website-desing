@@ -12,7 +12,7 @@ Proje sayfasındaki menu resimlerine tıklandığı zaman hem menu hemde arka pl
 
 https://user-images.githubusercontent.com/84860191/180813162-a9bf8a8c-2b8a-45ac-ac8e-c8c8a1b68387.mp4
 
-<h3 align="center">A passionate frontend developer from India</h3>
+<h3 align="center">A passionate frontend developer from Turkey</h3>
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
